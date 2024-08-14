@@ -1,0 +1,105 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+.timkiem input[type="text"] {
+    width: 200px;
+    /* Đặt chiều rộng của phần input tùy ý */
+    height: 30px;
+    /* Đặt chiều cao của phần input tùy ý */
+    border-radius: 20px;
+    position: relative;
+}
+
+.timkiem .icon {
+    position: relative;
+    left: -40px;
+    top: -3px;
+}
+
+
+.button1 {
+    justify-content: center;
+}
+
+.chu {
+    color: #990D23;
+}
+
+.sanpham {
+    border-radius: 10px;
+    color: #990D23;
+    background-color: #F7F5EF
+}
+
+.menu {
+    font-family: Roboto;
+    padding-top: 25px;
+
+}
+
+.clik-sp {
+    background-color: #990D23;
+    margin-left: 64px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.icon1 {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+.user {
+    width: 10%;
+}
+
+.user img {
+    padding: 0px 10px;
+    width: 40px;
+}
+
+.icon_sp {
+    width: 88px;
+    height: 88px;
+}
+
+.button_sp1 {
+    display: grid;
+    place-items: center;
+
+}
+
+.button_sp1 button {
+    text-decoration: none;
+    border: 2px solid #FF0000;
+    /* Màu và độ rộng của viền */
+    padding: 2px 40px;
+    /* Kích thước nút */
+    background-color: white;
+    /* Màu nền */
+    color: black;
+    /* Màu chữ */
+    border-radius: 20px;
+}
+
+.button_sp1 button:hover {
+    background-color: #FF0000;
+    color: white;
+    border-color: #ffffff;
+}
+
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
